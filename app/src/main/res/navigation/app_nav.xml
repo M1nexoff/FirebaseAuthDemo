@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/app_nav"
+    app:startDestination="@id/authScreen">
+
+    <fragment
+        android:id="@+id/authScreen"
+        android:name="uz.m1nex.testfirebaseauth.screen.AuthScreen"
+        android:label="AuthScreen" >
+        <action
+            android:id="@+id/action_authScreen_to_profileScreen"
+            app:destination="@id/profileScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileScreen"
+        android:name="uz.m1nex.testfirebaseauth.screen.ProfileScreen"
+        android:label="ProfileScreen" />
+</navigation>
