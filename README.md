@@ -27,6 +27,6 @@ Don't forget adding firebase google-services.json
 You can watch a short demo of the app here:
 
 <td>
-    <img src="https://github.com/terrakok/Cicerone/raw/master/media/navigation.gif" width="256" alt="demo"/>
+    <img src="https://github.com/M1nexoff/FirebaseAuthDemo/blob/master/video/1.gif" width="256" alt="demo"/>
 </td>
 Don't forget adding firebase google-services.json
